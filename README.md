@@ -1,7 +1,7 @@
 # SEIR Epidemic Simulator
 ## Spread epidemics simulator applied on Erdos-Renyi Network model.
 This project was realized for the Complex Networks course, hold at the Department of Information Technology of University of Palermo.\
-Read the file "Relazione_progetto.pdf" for more info.
+Please read the file "Relazione_progetto.pdf" for more info (italian version).
 #### This is the schema of the epidemic states used in the model:
 <p align="center">
   <img src="https://user-images.githubusercontent.com/53179989/153436667-6edace91-6e51-42e7-a313-127633eba619.png">
