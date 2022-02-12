@@ -9,7 +9,7 @@ Read the file "Relazione_progetto.pdf" for more info.
 - Download the zip file from GitHub.
 - install requirements:
 
-<pre><code>pip install requirements.txt</code></pre>
+<pre><code>pip install -r requirements.txt</code></pre>
 - run the script:
 
 <pre><code>python3 main.py</code></pre>
