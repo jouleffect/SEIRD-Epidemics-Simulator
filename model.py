@@ -3,7 +3,6 @@
 import numpy as np 
 import pandas as pd 
 import simulator
-import pickle
 import random
 from igraph import *
 import matplotlib.pyplot as plt
