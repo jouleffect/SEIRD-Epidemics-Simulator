@@ -1,7 +1,6 @@
 # Simulatore 
 
 import numpy as np
-import pickle
 import model
 import random
 from igraph import *
