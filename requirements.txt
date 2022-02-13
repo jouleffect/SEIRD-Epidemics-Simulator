@@ -1,4 +1,4 @@
 matplotlib
 numpy
 pandas
-igraph
+python-igraph==0.8.0
