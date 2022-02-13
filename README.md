@@ -27,7 +27,9 @@ The GUI will open and you can start to use the simulator.
 #
 ### REFERENCES:
 
-Erdos-Renyi network model, LT03 - PhD Salvatore Miccichè - Complex Networks 2021/2022. Master in Informatics, University of Palermo.
+Erdos-Renyi network model, LT03 - Spread of epidemics models, LT11 - Spread of epidemics networked models, LT12.\
+PhD Salvatore Miccichè - Complex Networks 2021/2022. Master in Informatics, University of Palermo.
+ 
 
 A. Kuzdeuov, A. Karabay, D. Baimukashev, B. Ibragimov and H. A. Varol, "A Particle-Based COVID-19 Simulator With Contact Tracing and Testing," in IEEE Open Journal of Engineering in Medicine and Biology, vol. 2, pp. 111-117, 2021, doi: 10.1109/OJEMB.2021.3064506.
 
