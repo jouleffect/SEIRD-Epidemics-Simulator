@@ -21,7 +21,8 @@ The GUI will open and you can start to use the simulator.
 #
 ### Interface example:
 
-![Schermata da 2022-02-10 13-12-46](https://user-images.githubusercontent.com/53179989/153715225-6f090a01-22df-4b8b-ae23-c5aae146e5e5.png)
+![Schermata da 2022-02-12 16-41-31](https://user-images.githubusercontent.com/53179989/153743771-69fbb399-e3bd-4fbc-9d4c-1520e12b7e58.png)
+
 
 #
 ### REFERENCES:
