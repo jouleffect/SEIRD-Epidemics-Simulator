@@ -10,7 +10,7 @@ def start_sim():
 
 	global img3
 
-	console.insert(INSERT,"Finito!\n> ")
+	console.insert(INSERT,"Done!\n> ")
 
 	# Creo gli oggetti di classe simulator e network
 	sim = simulator.Simulator(num_nodi.get(),p_link.get(),leng.get(),exp0.get(),t_exp.get(),t_inf.get(),alfa.get(),beta.get(),gamma.get())
@@ -66,7 +66,7 @@ title.grid(row=0, column=0, padx=5, pady=5)
 
 console = Text(left_frame, width = 25, height = 10, bg='black', fg='white')          
 console.grid(row=4, column=0, padx=5, pady=5)
-console.insert(INSERT,"#### Benvenuto ####\n> ")
+console.insert(INSERT,"##### Console debug #####\n> ")
 
 tool_bar1 = Frame(left_frame, width=400, height=400)
 tool_bar1.grid(row=1, column=0, padx=5, pady=5)
@@ -106,24 +106,24 @@ gamma.set(0.03)
 # Oggetti dell'interfaccia
 
 Label(left_frame, text="Network Parameters",bg='skyblue').grid(row=0, column=0, padx=5, pady=1)
-Label(tool_bar1, text="Numero di nodi").grid(row=1, column=0, padx=5, pady=3, ipadx=10)
+Label(tool_bar1, text="Number of nodes").grid(row=1, column=0, padx=5, pady=3, ipadx=10)
 Spinbox(tool_bar1, textvariable = num_nodi, from_= 0, to=10000).grid(row=1, column=1, padx=5, pady=5)
-Label(tool_bar1, text="Probabilità link").grid(row=2, column=0, padx=5, pady=3, ipadx=10)
+Label(tool_bar1, text="Link probability").grid(row=2, column=0, padx=5, pady=3, ipadx=10)
 Spinbox(tool_bar1, textvariable = p_link, from_= 0.0, increment=0.01, to=1.0, format="%.2f").grid(row=2, column=1, padx=5, pady=5)
 Label(left_frame, text="Simulator Parameters",bg='skyblue').grid(row=2, column=0, padx=5, pady=1)
-Label(tool_bar2, text="Numero di iterazioni").grid(row=2, column=0, padx=5, pady=3, ipadx=10)
+Label(tool_bar2, text="Number of iterations").grid(row=2, column=0, padx=5, pady=3, ipadx=10)
 Spinbox(tool_bar2, textvariable = leng, from_= 0, to=10000).grid(row=2, column=1, padx=5, pady=5)
-Label(tool_bar2, text="Esposti iniziali").grid(row=3, column=0, padx=5, pady=3, ipadx=10)
+Label(tool_bar2, text="Initial exposed").grid(row=3, column=0, padx=5, pady=3, ipadx=10)
 Spinbox(tool_bar2, textvariable = exp0, from_= 0, to=10000).grid(row=3, column=1, padx=5, pady=5)
-Label(tool_bar2, text="Tempo incubazione").grid(row=4, column=0, padx=5, pady=3, ipadx=10)
+Label(tool_bar2, text="Incubation period (days)").grid(row=4, column=0, padx=5, pady=3, ipadx=10)
 Spinbox(tool_bar2, textvariable = t_exp, from_= 0, to=10000).grid(row=4, column=1, padx=5, pady=5)
-Label(tool_bar2, text="Tempo infezione").grid(row=5, column=0, padx=5, pady=3, ipadx=10)
+Label(tool_bar2, text="Disease period (days)").grid(row=5, column=0, padx=5, pady=3, ipadx=10)
 Spinbox(tool_bar2, textvariable = t_inf, from_= 0, to=10000).grid(row=5, column=1, padx=5, pady=5)
-Label(tool_bar2, text="Tasso di esposizione").grid(row=6, column=0, padx=5, pady=3, ipadx=10)
+Label(tool_bar2, text="Exposing rate").grid(row=6, column=0, padx=5, pady=3, ipadx=10)
 Spinbox(tool_bar2, textvariable = alfa, from_= 0.0, increment=0.01, to=1.0, format="%.2f").grid(row=6, column=1, padx=5, pady=5)
-Label(tool_bar2, text="Tasso di infezione grave").grid(row=7, column=0, padx=5, pady=3, ipadx=10)
+Label(tool_bar2, text="Severe infected rate").grid(row=7, column=0, padx=5, pady=3, ipadx=10)
 Spinbox(tool_bar2, textvariable = beta, from_= 0.0, increment=0.01, to=1.0, format="%.2f").grid(row=7, column=1, padx=5, pady=5)
-Label(tool_bar2, text="Tasso di mortalità").grid(row=8, column=0, padx=5, pady=3, ipadx=10)
+Label(tool_bar2, text="Dead rate").grid(row=8, column=0, padx=5, pady=3, ipadx=10)
 Spinbox(tool_bar2, textvariable = gamma, from_= 0.0, increment=0.01, to=1.0, format="%.2f").grid(row=8, column=1, padx=5, pady=5)
 Button(tool_bar2, text='Start Simulation', command = start_sim).grid(row=9, column=1, padx=5, pady=1)
 
