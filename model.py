@@ -7,8 +7,6 @@ import pickle
 import random
 from igraph import *
 import matplotlib.pyplot as plt
-import networkx as nx
-from networkx import draw, Graph
 
 
 class Network():
@@ -16,7 +14,7 @@ class Network():
 	def __init__(self, simulator):
 		
 		# Genero un grafo random
-		self.g = nx.erdos_renyi_graph(simulator.num_nodi,simulator.p_link)	
+		self.g = Graph.Erdos_Renyi(simulator.num_nodi,simulator.p_link)
 
 		# Inizializzazione dei vettori degli step temporali e degli stati epidemici
 		self.t_state = np.zeros((simulator.num_nodi,1))
@@ -107,17 +105,3 @@ class Network():
 
 		#print(new_cases)
 		return new_cases
-
-
-
-#-----------------Main-----------------#
-
-if __name__ == "__main__":
-
-	sim = simulator.Simulator() # Creo l'ogetto Simulator
-	net = Network(sim) 			# Creo l'ogetto Network
-
-	net.update_states(1,sim)	# Lancio la funzione di aggiornamento degli stati
-
-#	net.data = pd.read_pickle('simulations/data.p') # Leggo il file dei dati
-	net.plot(25000,sim)	# Creo il grafico

@@ -74,35 +74,3 @@ class Simulator():
 		dead_inf = np.where((network.t_state >= self.t_inf) & (network.e_state == 3) & (Rand<self.gamma))
 		network.e_state[dead_inf] = 5
 
-
-#-----------------Main-----------------#
-
-if __name__ == "__main__":
-	
-	sim = Simulator()			# Creo l'oggetto Simulator
-	net = model.Network(sim)	# Creo l'oggetto Network
-	 
-	saved_sim = 'simulations/saved_simulation_results.p'
-	with open(saved_sim, 'rb') as filehandler:
-		data_sim = pickle.load(filehandler)
-
-	contacts = data_sim[0]
-	net.e_state = data_sim[2]
-	net.t_state = data_sim[3]
-
-	sim.s_to_e(net,contacts)
-	st1 = net.e_state
-	tt1 = net.t_state
-
-	saved_sim = 'simulations/saved_simulation_results.p'
-	with open(saved_sim, 'rb') as filehandler:
-		data_sim = pickle.load(filehandler)
-
-	net.e_state = data_sim[2]
-	net.t_state = data_sim[3]
-	ind = [1,2,3,4]
-	net.e_state[ind] = 2
-	net.t_state[ind] = sim.t_inf
-
-	sim.i_to_r(net)
-	st2 = net.e_state
