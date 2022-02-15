@@ -1,4 +1,4 @@
-# SEIR Epidemic Simulator
+# SEIRD Epidemic Simulator
 ## Spread epidemics simulator applied on Erdos-Renyi Network model.
 This project was realized for the "Complex Networks" course, hold at the Department of Information Technology of University of Palermo.\
 Please read the file "Relazione_progetto.pdf" for more info (italian version).
@@ -21,8 +21,7 @@ The GUI will open and you can start to use the simulator.
 #
 ### Interface example:
 
-![Schermata da 2022-02-12 16-41-31](https://user-images.githubusercontent.com/53179989/153743771-69fbb399-e3bd-4fbc-9d4c-1520e12b7e58.png)
-
+![Schermata da 2022-02-15 15-52-50](https://user-images.githubusercontent.com/53179989/154086843-b0492a82-6b58-41d5-877d-3fd705a7a962.png)
 
 #
 ### REFERENCES:
