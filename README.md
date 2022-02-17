@@ -1,5 +1,5 @@
 # SEIRD Epidemic Simulator
-## A Network-based epidemic simulator.
+## A network-based epidemic simulator.
 This project was realized for the "Complex Networks" course, hold at the Department of Information Technology of University of Palermo.\
 Please read the file "Relazione_progetto.pdf" for more info (italian version).
 #### This is the schema of the epidemic states used in the model:
