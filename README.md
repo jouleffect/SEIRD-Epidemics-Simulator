@@ -1,5 +1,5 @@
 # SEIRD Epidemic Simulator
-## Spread epidemics simulator applied on Erdos-Renyi Network model.
+## A Network-based epidemic simulator.
 This project was realized for the "Complex Networks" course, hold at the Department of Information Technology of University of Palermo.\
 Please read the file "Relazione_progetto.pdf" for more info (italian version).
 #### This is the schema of the epidemic states used in the model:
@@ -28,10 +28,6 @@ The GUI will open and you can start to use the simulator.
 Erdos-Renyi network model, LT03 - Spread of epidemics models, LT11 - Spread of epidemics networked models, LT12.\
 PhD Salvatore Miccichè - Complex Networks 2021/2022. Master in Informatics, University of Palermo.
 
-Newman, M., 2010. Networks: an introduction. Oxford University Press.
-
 A. Kuzdeuov, A. Karabay, D. Baimukashev, B. Ibragimov and H. A. Varol, "A Particle-Based COVID-19 Simulator With Contact Tracing and Testing," in IEEE Open Journal of Engineering in Medicine and Biology, vol. 2, pp. 111-117, 2021, doi: 10.1109/OJEMB.2021.3064506.
 
 @ARTICLE{9542855,  author={Karabay, Aknur and Kuzdeuov, Askat and Ospanova, Shyryn and Lewis, Michael and Varol, Huseyin Atakan},  journal={IEEE Journal of Biomedical and Health Informatics},   title={A Vaccination Simulator for COVID-19: Effective and Sterilizing Immunization Cases},   year={2021},  volume={25},  number={12},  pages={4317-4327},  doi={10.1109/JBHI.2021.3114180}}
-
-https://github.com/IS2AI/tutorial_COVID-19_epidemic_simulator
