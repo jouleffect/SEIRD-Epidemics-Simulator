@@ -20,7 +20,7 @@ Please read the file "Relazione_progetto.pdf" for more info (italian version).
 The GUI will open and you can start to use the simulator.
 #
 ### Interface example:
-![Schermata da 2022-02-15 15-55-35](https://user-images.githubusercontent.com/53179989/154087456-35870dd7-fe38-4a47-ad17-d98153819fd5.png)
+![Schermata da 2022-02-18 09-02-34](https://user-images.githubusercontent.com/53179989/154642508-8087e302-f505-4d2a-b34b-0f26cb299246.png)
 
 #
 ### REFERENCES:
