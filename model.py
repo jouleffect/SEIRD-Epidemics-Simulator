@@ -50,7 +50,7 @@ class Network():
 		np.count_nonzero(self.states['severe_infected']), np.count_nonzero(self.states['recovered']),
 		np.count_nonzero(self.states['dead']), self.states['susceptible'], self.states['total_cases']]
 
-		print(self.data)
+		#print(self.data)
 
 	def plot(self,i,simulator): # Creazione Grafici
 		
@@ -62,13 +62,13 @@ class Network():
 		self.data.plot(x = 'days', y = 'infected', kind = 'line', color = 'blue', ax = ax)
 		self.data.plot(x = 'days', y = 'severe infected', kind = 'line', color = 'magenta', ax = ax)
 		self.data.plot(x = 'days', y = 'recovered', kind = 'line', color = 'green', ax = ax)
-		self.data.plot(x = 'days', y = 'dead', kind = 'line', color = 'red', ax = ax)
+		self.data.plot(x = 'days', y = 'dead', kind = 'line', color = 'brown', ax = ax)
 
 
-		plt.title('Epidemic states at {}/{} iterations'.format(i, simulator.num_iter))
+		plt.title('Epidemic states plot')
 		plt.xlabel('Time (days)')
 		plt.ylabel('Number of nodes')
-		plt.savefig('./plots/states.png'.format(i))
+		plt.savefig('./plots/states.png')
 
 	def update_nodes(self,i,simulator): # Aggiornamento dei nodi del network (rimozione dei nodi morti e isolamento dei nodi gravemente infetti)
 		pass
