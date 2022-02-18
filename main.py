@@ -131,7 +131,7 @@ Label(tool_bar2, text="Mortality rate").grid(row=8, column=0, padx=5, pady=3, ip
 Spinbox(tool_bar2, textvariable = gamma, from_= 0.0, increment=0.01, to=1.0, format="%.4f").grid(row=8, column=1, padx=5, pady=5)
 Button(tool_bar2, text='Start Simulation', command = start_sim).grid(row=9, column=1, padx=5, pady=1)
 
-Button(left_frame, text='Clear', command = clear).grid(row=4, column=0, padx=5, pady=1)
+Button(tool_bar2, text='Clear', command = clear).grid(row=9, column=0, padx=5, pady=1)
 
 #------------------------------------------------------------------------------------------
 
