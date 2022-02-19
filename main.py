@@ -123,7 +123,7 @@ Label(tool_bar2, text="Incubation period (days)").grid(row=4, column=0, padx=5, 
 Spinbox(tool_bar2, textvariable = t_exp, from_= 0, to=10000).grid(row=4, column=1, padx=5, pady=5)
 Label(tool_bar2, text="Disease period (days)").grid(row=5, column=0, padx=5, pady=3, ipadx=10)
 Spinbox(tool_bar2, textvariable = t_inf, from_= 0, to=10000).grid(row=5, column=1, padx=5, pady=5)
-Label(tool_bar2, text="Exposing rate").grid(row=6, column=0, padx=5, pady=3, ipadx=10)
+Label(tool_bar2, text="Transmission rate").grid(row=6, column=0, padx=5, pady=3, ipadx=10)
 Spinbox(tool_bar2, textvariable = alfa, from_= 0.0, increment=0.01, to=1.0, format="%.4f").grid(row=6, column=1, padx=5, pady=5)
 Label(tool_bar2, text="Severe infected rate").grid(row=7, column=0, padx=5, pady=3, ipadx=10)
 Spinbox(tool_bar2, textvariable = beta, from_= 0.0, increment=0.01, to=1.0, format="%.4f").grid(row=7, column=1, padx=5, pady=5)

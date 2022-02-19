@@ -65,7 +65,7 @@ class Network():
 		self.data.plot(x = 'days', y = 'dead', kind = 'line', color = 'brown', ax = ax)
 
 
-		plt.title('Epidemic states plot')
+		plt.title('link_p: {}; exp0: {}; t_inc: {}; t_inf: {}\n alpha: {}; beta: {}; gamma: {}'.format(simulator.p_link, simulator.exp0,simulator.t_exp,simulator.t_inf,simulator.alfa,simulator.beta,simulator.gamma))
 		plt.xlabel('Time (days)')
 		plt.ylabel('Number of nodes')
 		plt.savefig('./plots/states.png')
