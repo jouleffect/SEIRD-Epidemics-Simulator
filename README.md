@@ -1,7 +1,9 @@
-# SEIRD Epidemic Simulator
-## A network-based epidemic simulator.
+# SEIRD Epidemic Simulator 	
+### A network-based epidemic simulator
+<img alt=”React” src="http://ForTheBadge.com/images/badges/made-with-python.svg"/> 
 This project was realized for the "Complex Networks" course, hold at the Department of Information Technology of University of Palermo.\
 Please read the file "Relazione_progetto.pdf" for more info (italian version).
+
 #### This is the schema of the epidemic states used in the model:
 <p align="center">
   <img src="https://user-images.githubusercontent.com/53179989/153436667-6edace91-6e51-42e7-a313-127633eba619.png">
